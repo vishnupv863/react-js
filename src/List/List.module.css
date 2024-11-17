@@ -1,0 +1,26 @@
+.category{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 2em;
+    font-weight: bold;
+    border: 1px solid hsl(0, 50%, 20%);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: aqua;
+    text-align: center;
+}
+
+.listItems li{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 2em;
+    padding: 10px;
+    margin: 10px;
+    list-style: none;
+    text-align: center;
+    color: hsl(0, 0%, 20%);
+}
+
+.listItems li:hover {
+    color: hsl(0, 0%, 50%);
+    cursor: pointer;
+}
